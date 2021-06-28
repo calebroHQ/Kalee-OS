@@ -5,19 +5,36 @@
 }
 
 .banner__info {
-    background-color: black;
+    background-color: darkslategray;
     color: white;
-    padding-top: 25vh;
+    padding-top: 3vh;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     width: 300px;
 }
 
 .banner__info>button {
-    background-color: #ff7779;
+    background-color: #20e4f1;
     color: white;
     text-transform: inherit;
     margin-top: 20px;
     font-weight: 600;
+}
+
+.banner__info>button:hover {
+    background-color: white;
+    color: #20e4f1;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #20e4f1 !important;
 }
